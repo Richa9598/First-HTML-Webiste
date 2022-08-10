@@ -1,0 +1,87 @@
+*{
+ margin: 0px;
+ padding: 0px;
+    background-color: beige;
+}
+body{
+ font-family: arial;
+}
+.main{
+
+ margin: 2%;
+    
+}
+.heading 
+{
+    text-align: center;
+    font-family: cursive;
+    color: green;
+    font-size: 30px;
+}
+h2
+{
+    font-family: cursive;
+    color: burlywood;
+    font-size: 25px;
+    margin-left: 2%;
+    
+}
+.card{
+     width: 20%;
+    height: 440px;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px; 
+     margin: 6%;
+    }
+
+.image img{
+  width: 259px;
+    height: 259px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  
+
+ 
+ }
+
+.title{
+ 
+  text-align: center;
+  padding: 10px;
+  
+ }
+
+h1{
+  font-size: 20px;
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+ 
+  padding-top: 10px;
+        border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+button{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:10px;
+}
+#back button 
+                width: 120px;
+                height: 34px;
+                background: green;
+                cursor: pointer;
+                text-transform: uppercase;
+                
+}
+#back a
+{
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,87 @@
+
+#intro
+{
+    
+    width: 90%;
+    text-align: center;
+    text-decoration: none;
+    font-family: cursive;
+    font-weight: lighter;
+    margin: 55px;
+}
+#intro h1{
+    font-size: 40px;
+    color:darkgreen;    
+    
+    
+}
+#intro h2
+{
+    font-size: 30px;
+}
+#intro h3
+{
+    
+    
+    font-size: 20px;
+}
+.profilebox {
+   width: 300px;
+   height: 350px;
+   background: #eee;
+   cursor: pointer;
+   float: left;
+   margin: 70px;
+}
+.profilebox1 {
+    
+   background-position: center center;
+   background-size: cover;
+   perspective: 450px;
+   position: relative;
+}
+.profilebox1 img{
+    width: 100%;
+    padding: 10px;
+    height: 300px;
+}
+.profilebox .profileInfo {
+   background: #ffffff none repeat scroll 0 0;
+   bottom: 0;
+   height: 50px;
+   left: 0;
+   margin: 0 auto;
+   position: absolute;
+   right: 0;
+   width: 90%;
+   transform: rotatex(90deg);
+   transform-origin: bottom center 0;
+   transition: all 350ms ease;
+   opacity: 0;
+}
+.profilebox .profileInfo h3 {
+   font-size: 20px;
+   margin: 15px 0;
+   text-align: center;
+}
+.profilebox:hover .profileInfo {
+   opacity: 1;
+   bottom: 15px;
+   transform: rotatex(0deg);
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+

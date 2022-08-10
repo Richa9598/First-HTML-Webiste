@@ -1,0 +1,490 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body
+{
+    background-color: pink;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 100%;
+    font-family: sans-serif;
+}
+div , section ,span ,ul ,li,a{
+    box-sizing: border-box;
+     
+}
+
+/*CSS reset*/
+header{
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    
+    position: fixed;
+    z-index: 999;
+}
+header a img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    position: fixed;
+    float: right;
+}
+
+#menu li{
+    list-style: none;
+    display: inline;
+    margin: 20px;
+    
+}
+#menu li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+section {
+    width: 100%;
+    height: 110vh;
+    float: left;
+    position: relative;
+    
+}
+section img{
+    width: 100%;
+    height: 97vh;
+    position: absolute;
+    float: left;
+}
+/*
+#home{
+    background-color: bisque;
+    
+}
+#about{
+    background-color: pink;
+    
+}
+
+#gallery{
+    background-color: blueviolet;
+    
+}
+
+#contact{
+    background-color: pink;
+}
+*/
+#wealldance{
+  height: auto;
+}
+#container
+{
+    position: absolute;
+    width: 60%;
+    height: 100vh;
+    top: 10%;
+    right: 20%;
+}
+/*About us css*/
+#header
+{
+    background-color: pink;
+    font-size: 40px;
+}
+#header p
+{
+    color: white;
+    font-family: monospace;
+    
+}
+#aside
+{
+    background-color: pink;
+    width: 30%;
+    position: absolute;
+    height: 450px;
+    float: left;
+    
+    
+}
+ #aside img
+{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    right: 3%;
+
+}
+
+#aboutme
+{
+    background-color: pink;
+    width: 70%;
+    height: 100px;
+    float: right;
+}
+#aboutme p
+{
+    color: white;
+}
+
+#aboutme p span
+{
+    font-family: cursive;
+    font-size: 30px;
+}
+
+#courses
+{
+    background-color: pink;
+    width: 70%;
+   
+    height: 350px;
+    float: right;
+    text-align: justify;
+}
+#courses p
+{
+    text-align: center;
+    color: white" 
+}
+
+/*Gallery css*/
+#container11
+{
+    
+    width: 100%;
+    height: 100vh;
+    top: 10%;
+    margin: 45px;
+}
+#container11 h3
+{
+    text-align: center;
+     top: 10%;
+}
+hr
+{
+    width: 100%;
+}
+#box
+{
+    display: inline-block;
+    margin: 20px;
+    width: 20%; 
+}
+#box img
+{
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    padding-left: 12px;
+    border-radius: 5px;
+}
+
+#container11 button
+{
+                top: 40%;
+                width: 220px;
+                height: 34px;
+                background: green;
+                cursor: pointer;
+                text-transform: uppercase;
+                
+}
+#container11 button a
+{
+    color: white;
+    text-decoration: none;
+}
+/*Wealldance css*/
+
+
+/* social media buttons */
+nav{
+  position: fixed;
+  width: 70px;
+  margin-top: 150px;
+  transition: all 0.3s linear;
+  box-shadow: 2px 2px 8px 0px rgba(0,0,0,.4);
+}
+nav li{
+  height: 60px;
+  position:relative;
+}
+nav li a{
+  color: white;
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 60px;
+  padding-left:25%;
+  border-bottom: 1px solid rgba(0,0,0,.4);
+  transition: all .3s linear;
+}
+nav li:nth-child(1) a{
+  background: #4267B2;
+}
+nav li:nth-child(2) a{
+  background: #1DA1F2;
+}
+nav li:nth-child(3) a{
+  background: #E1306C;
+}
+nav li:nth-child(4) a{
+  background: #2867B2;
+}
+nav li:nth-child(5) a{
+  background: #ff0000;
+}
+nav li a i{
+  position:absolute;
+  top: 17px;
+  left: 20px;
+  font-size: 27px;
+}
+ul li a span{
+  display: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+a:hover {
+  z-index:1;
+  width: 200px;
+  border-bottom: 1px solid rgba(0,0,0,.5);
+  box-shadow: 0 0 1px 1px rgba(0,0,0,.3);
+}
+ul li:hover a span{
+  padding-left: 30%;
+  display: block;
+}
+
+/*contact us form*/
+#aboutus
+{
+    height: 100%;
+    width: 100%;
+}
+#bottom
+{
+    height:450px;
+    width: 100%;
+    top: 20%;
+    margin: 200px;
+    position: absolute;
+}
+#bottom h1
+{
+   font-family:cursive;
+    color:darkcyan;
+}
+
+#bottom p
+{
+    text-align: center;
+}   
+  .wrapper {
+    height: auto;
+    display: flex;
+    align-items: center;
+    background: url("bg.jpg") no-repeat;
+    background-size: cover; 
+}
+   
+  .inner {
+    width: 400px;
+    margin: 150px;
+    background: #39459b;
+    
+    border: 10px solid #0d99d7;
+    padding: 50px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  }
+   
+  textarea {
+    resize: none; 
+}
+  h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 12px; 
+}
+ 
+  .form-group {
+    position: relative;
+    display: block;
+    margin-bottom: 48px; 
+}
+    .form-group span {
+      font-size: 15px;
+      color: #00ade6;
+      position: absolute;
+      top: 11px;
+      transition: all .2s ease;
+      transform-origin: 0 0;
+      cursor: text; }
+    .form-group span.border {
+      height: 2px;
+      display: block;
+      position: absolute;
+      width: 100%;
+      left: 0;
+      top: 41px;
+      transform: scaleX(0);
+      transition: all .15s ease;
+      background: #fff; 
+}
+   
+  .form-control {
+    border: none;
+    border-bottom: 2px solid #00ade6;
+    display: block;
+    width: 100%;
+    height: 43px;
+    font-size: 15px;
+    background: none;
+     
+}
+    .form-control:focus, .form-control:valid {
+      border-bottom: 2px solid #fff; 
+    }
+     .form-control:focus + span, .form-control:valid + span {
+        transform: translateY(-22px) scale(0.8); 
+    }
+     .form-control:focus + span + .border, .form-control:valid + span + .border {
+          transform: scaleX(1); 
+        }
+   
+  textarea.form-control {
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+   
+  button {
+    border: none;
+    width: 162px;
+    height: 51px;
+    border: 2px solid #fff;
+    margin: auto;
+    margin-top: 60px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background: none;
+    color: #fff;
+    text-transform: uppercase;
+    transform: perspective(1px) translateZ(0);
+    position: relative;
+    transition-property: color;
+    transition-duration: 0.3s;
+ }
+     
+    button:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: #2098D1;
+      transform: scaleX(0);
+      transform-origin: 0 50%;
+      transition-property: transform;
+      transition-duration: 0.3s;
+      transition-timing-function: ease-out; 
+    }
+    button:hover {
+      border-color: transparent; 
+    }
+      button:hover:before {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1); 
+    }
+   
+  @media (max-width: 767px) {
+    h3 {
+      font-size: 38px; }
+   
+    p {
+      font-size: 14px;
+      padding: 0; }
+   
+    .inner {
+      padding: 27px 20px 37px;
+      border: none;
+      box-shadow: none;
+       
+      }
+      
+      
+      
+      /*footer*/
+#footer {
+    
+   background-color: sandybrown;
+    width: 100%;
+    height: 100px;
+    font-style: italic;
+    font-size: 16px;
+    float: left;
+            
+        }
+
+
+#footer p
+      {
+          text-align:center;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);/*bring perfect centre
+    color: white;
+}*/

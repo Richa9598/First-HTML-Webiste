@@ -1,0 +1,57 @@
+<!-- comments heer -->
+<!-- this is my sample web page -->
+<!DOCTYPE HTML> <!-- which version of html is used -->
+<html>
+    <head>
+        <title>Personal Page</title>
+        <link rel="stylesheet" href="self.css">
+        
+    </head>
+    
+    <body>
+        
+        <button value="Online class"><a href="lecture.html">Online Class</a></button>
+        <button value="Click Me" onclick="personal()">Click Me</button>
+        
+        <div style="text-align:center;clear:both" id="divsum">
+			<h1> Personal Details</h1>
+			<p id="data"></p>
+            <center><table id="table11" border="1 solid black"></table></center> 
+		</div>
+    </body>
+
+</html>
+<script>
+            function personal(){
+                var name="Richa Rajesh Patel";
+                var Age=23;
+                var year1=75;
+                 var year2=73;
+                 var year3=76;
+                 var year4=85;
+                 var year5=77;
+                 var year6=75;
+                var team1="shreya patel";
+                var team2="krunali kunvar";
+                var team3="naisargi tanna";
+                
+                
+                
+                var tableData = document.getElementById("table11");
+                tableData.innerHTML = "";   //Done for not listing multiple tables on multiple click.
+                tableData.innerHTML += "<tr><td>Your Name</td><td>"+name+"</td></tr>";
+                tableData.innerHTML += "<tr><td>Age</td><td>"+Age+"</td></tr>";
+                tableData.innerHTML += "<tr><td>1st year result</td><td>"+year1+"</td></tr>";
+                tableData.innerHTML += "<tr><td>2nd year result</td><td>"+year2+"</td></tr>";
+                tableData.innerHTML += "<tr><td>3rd year result</td><td>"+year3+"</td></tr>";
+                tableData.innerHTML += "<tr><td>4th year result</td><td>"+year4+"</td></tr>";
+                tableData.innerHTML += "<tr><td>5th year result</td><td>"+year5+"</td></tr>";
+                tableData.innerHTML += "<tr><td>6th year result</td><td>"+year6+"</td></tr>";
+                tableData.innerHTML += "<tr><td>Team mate 1</td><td>"+team1+"</td></tr>";
+                tableData.innerHTML += "<tr><td>Team mate 2</td><td>"+team2+"</td></tr>";
+                tableData.innerHTML += "<tr><td>Team mate 4</td><td>"+team3+"</td></tr>";
+                
+                
+            }
+        </script>
+    
